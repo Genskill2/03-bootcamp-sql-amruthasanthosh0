@@ -6,15 +6,14 @@ insert into publisher (name,country) values
                                     ("Del Rey","UK"),
                                     ("Vintage","UK");
                                     
-insert into books (title,publisher) values
-                                    ("The C Programming Language",1),
-                                    ("The Go Programming Language",1),
-                                    ("The UNIX Programming Environment",1),
-                                    ("Cryptonomicon",2),
-                                    ("Deep Work",3),
-                                    ("Atomic Habits",4),
-                                    ("The City and The City",5)
-                                    ("The Great War for Civilisation",6);
+INSERT INTO books VALUES (1,'The C Programming Language',1);  
+INSERT INTO books VALUES (2,'The Go Programming Language',1);  
+INSERT INTO books VALUES (3,'The UNIX Programming Environment',1);  
+INSERT INTO books VALUES (4,'Cryptonomicon',2);  
+INSERT INTO books VALUES (5,'Deep Work',3);  
+INSERT INTO books VALUES (6,'Atomic Habits',4);  
+INSERT INTO books VALUES (7,'The City and The City',5);  
+INSERT INTO books VALUES (8,'The Great War for Civilisation',6); 
                                     
 insert into subjects (name) values
                             ("C"),
@@ -45,4 +44,3 @@ insert into books_subjects (book,subject) values
                                           (7,8),
                                           (8,8),
                                           (8,9);
-
