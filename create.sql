@@ -1,4 +1,4 @@
-PRAGMA foreign-keys=ON
+PRAGMA foreign_keys=ON
 
 create table publisher(
     id serial primary key,
