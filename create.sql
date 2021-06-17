@@ -17,7 +17,7 @@ CREATE TABLE subjects (
     name text
 );
 
-CREATE TABLE books_subjects(
+CREATE TABLE books_subjects (
     book integer references books(id),
     subject integer references subjects(id)
 );
